@@ -8,6 +8,7 @@ html {
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; /* 改善字体显示 */
 
   /* 修改字体顺序，保证中英文混排的美观性 */
   font-family: 'LXGW WenKai', 'LXGW WenKai Lite', 'LXGW WenKai TC', 'LXGW WenKai Screen',
