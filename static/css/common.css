@@ -1,6 +1,5 @@
 html {
   color: #333333;
-  font-size: 1.25em;
   background: #ffffff;
   scroll-behavior: smooth;
   -ms-text-size-adjust: 100%;
@@ -24,6 +23,7 @@ body {
   max-width: 680px;
   padding: 0 14px;
   margin: 0 auto;
+  zoom: 1.25;
 }
 * {
   -webkit-tap-highlight-color: transparent;
