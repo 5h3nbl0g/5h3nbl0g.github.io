@@ -8,7 +8,10 @@ html {
   text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Cascadia Code', Consolas, Helvetica, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+
+  /* 修改字体顺序，保证中英文混排的美观性 */
+  font-family: 'Inter', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Helvetica', 'Arial', sans-serif;
+  
   overflow-y: overlay;
 }
 html[transition] {
@@ -53,9 +56,9 @@ textarea {
   appearance: none;
   border: none;
 }
-pre,
+pre, 
 code {
-  font-family: inherit;
+  font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace;
 }
 input:-webkit-autofill {
   /* 自动填充的文本颜色 */
