@@ -58,7 +58,7 @@ textarea {
 }
 pre, 
 code {
-  font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace;
+  font-family: 'Fira Code', Consolas, 'Courier New', monospace;
 }
 input:-webkit-autofill {
   /* 自动填充的文本颜色 */
